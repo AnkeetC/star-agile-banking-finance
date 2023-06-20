@@ -4,10 +4,10 @@
   connection : ssh
   tasks : 
   - name: updating apt
-    command :  apt-get update -b
+    command :  apt update -b
 
   - name : Install Docker
-    command : sudo apt-get install -y docker.io -b
+    command : sudo apt install -y docker.io -b
 
   - name : Start Docker Service
     command : sudo systemctl start docker
