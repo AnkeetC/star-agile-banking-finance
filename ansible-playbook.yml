@@ -7,7 +7,7 @@
     command :  apt update -b
 
   - name : Install Docker
-    command : sudo apt install -y docker.io -b
+    command :  apt install -y docker.io -b
 
   - name : Start Docker Service
     command : sudo systemctl start docker
